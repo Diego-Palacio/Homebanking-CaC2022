@@ -1,6 +1,14 @@
 package repositories;
 
+import org.springframework.stereotype.Repository;
+
+import models.User;
+
+import org.springframework.data.repository.CrudRepository;
+
 //Conector directo con la base de datos , encargado de hacer las operaciones crud
-public class UserRepository {
+
+@Repository
+public interface UserRepository extends CrudRepository<User,Long>{
 
 }

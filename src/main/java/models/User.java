@@ -4,6 +4,7 @@ import java.util.Objects;
 
 import lombok.Data;
 
+//entidad que va a pertenecer a la base de datos
 //Uso la anotacion Data de lombok para generar getters,setters,Tostring,etc.
 @Data
 public class User {

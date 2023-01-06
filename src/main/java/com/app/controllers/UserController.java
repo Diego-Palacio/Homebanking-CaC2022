@@ -37,13 +37,13 @@ public class UserController {
 	    return userService.find(id);
 	}
 	
-	@GetMapping("/api/user")
+	@GetMapping("/api/user/")
 	@ResponseStatus(code = HttpStatus.OK)
 	public List<User> getUsers(){
 		return (List<User>) userService.findAll();
 	}
 	
-	@PostMapping("/api/user")
+	@PostMapping("/api/user/")
 	@ResponseStatus(code = HttpStatus.CREATED)
 	public User create(@RequestBody User user) {
 	    return userService.create(user);

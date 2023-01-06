@@ -18,7 +18,7 @@ import lombok.Data;
 public class User {
 
 	@Id
-	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	@GeneratedValue(strategy = GenerationType.AUTO)
 	public Long id;
 	public String email;
 	public String password;
@@ -35,8 +35,9 @@ public class User {
 		this.password = password;
 		this.username = username;
 		this.age = age;
-	}
+	} 
 	
+
 	
 	//Genero metodo hashcode y equals con solo el id de la clase (Buscar forma de hacerlo mediante lombok)
 	@Override

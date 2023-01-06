@@ -1,11 +1,11 @@
-package services;
+package com.app.services;
 
 import java.util.Optional;
 
 import org.springframework.stereotype.Service;
 
-import models.Account;
-import repositories.accountRepository;
+import com.app.models.Account;
+import com.app.repositories.accountRepository;
 
 @Service
 public class accountService {

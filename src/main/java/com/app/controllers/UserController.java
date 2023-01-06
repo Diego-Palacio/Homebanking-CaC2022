@@ -1,4 +1,4 @@
-package controllers;
+package com.app.controllers;
 
 import java.util.List;
 import java.util.Optional;
@@ -15,8 +15,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
-import models.User;
-import services.UserService;
+import com.app.models.User;
+import com.app.services.UserService;
 
 //redistribuye las solicitudes que van llegando
 

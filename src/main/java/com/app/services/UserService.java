@@ -1,13 +1,13 @@
 
 
-package services;
+package com.app.services;
 
 import java.util.Optional;
 
 import org.springframework.stereotype.Service;
 
-import models.User;
-import repositories.UserRepository;
+import com.app.models.User;
+import com.app.repositories.UserRepository;
 
 //capa intermediara entre la de presentacion(controllers) y la de persistencia (repositorios)
 //contiene toda la logica de negocio

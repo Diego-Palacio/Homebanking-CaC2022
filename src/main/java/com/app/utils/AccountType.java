@@ -1,4 +1,4 @@
-package utils;
+package com.app.utils;
 
 //clase enum con diferentes tipos de cuenta
 public enum AccountType {

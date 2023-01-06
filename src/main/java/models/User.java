@@ -12,14 +12,14 @@ import lombok.Data;
 //entidad que va a pertenecer a la base de datos
 //Uso la anotacion Data de lombok para generar getters,setters,Tostring,etc.
 
-@Entity
 @Data
-@Table(name="users")
+@Entity
+@Table(name = "users")
 public class User {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	public long id;
+	public Long id;
 	public String email;
 	public String password;
 	public String username;
@@ -53,7 +53,7 @@ public class User {
 		if (getClass() != obj.getClass())
 			return false;
 		User other = (User) obj;
-		return id == other.id;
+		return Objects.equals(id, other.id);
 	}
 	
 	

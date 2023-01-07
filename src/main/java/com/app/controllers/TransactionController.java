@@ -15,9 +15,7 @@ import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.app.models.Transaction;
-import com.app.models.User;
 import com.app.services.TransactionService;
-import com.app.services.accountService;
 
 @RestController
 public class TransactionController {

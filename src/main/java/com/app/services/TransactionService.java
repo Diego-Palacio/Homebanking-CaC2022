@@ -6,7 +6,7 @@ import org.springframework.stereotype.Service;
 
 import com.app.models.Transaction;
 import com.app.repositories.TransactionRepository;
-import com.app.repositories.accountRepository;
+
 
 @Service
 public class TransactionService {

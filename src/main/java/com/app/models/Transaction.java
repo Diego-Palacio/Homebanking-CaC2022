@@ -16,8 +16,8 @@ public class Transaction {
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	public Long id;
-	public User user_id;
-	public Account account_id;
+	public Long user_id;
+	public Long account_id;
 	public int ammount;
 	
 	public Transaction(){}

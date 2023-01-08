@@ -7,7 +7,7 @@ import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 @EnableWebMvc
 @SpringBootApplication
 public class HomebankingApplication {
-
+	
 	public static void main(String[] args) {
 		SpringApplication.run(HomebankingApplication.class, args);
 	}
